@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* head */
+#head,
+.mail a {
+    background-color: #0E0E0E;
+    color: #adada4;
+    font-size: 14px;
+}
+
+.mail i {
+    color: red;
+
+}
+
+.number {
+    margin-left: 10px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    color: #adada4;
+}
+
+/* navbar */
+.day-text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: white !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    transition: 0.5s all;
+    margin-left: 5px;
+}
+
+.nav-link:hover {
+    color: blue;
+    background-color: red;
+}
+
+.active {
+    background-color: red;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+/* Welcome */
+#welcome {
+    background-image: url("img/day.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+#welcome a {
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s all;
+}
+
+#welcome a:hover {
+    background-color: red;
+}
+
+/* Content */
+#content {
+    margin-top: 25px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#content h1 {
+    font-size: 15px
+}
+
+#content i {
+    color: red;
+    margin-right: 5px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Cards */
+#cards {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card {
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card span {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0px;
+
+}
+
+.card p {
+    font-size: 15px;
+    color: #adada4;
+}
+
+/* Services */
+#services {
+    margin-top: 50px;
+    height: 700px;
+}
+
+.service-head {
+    text-align: center;
+    position: relative;
+}
+
+.back {
+    opacity: 0.5;
+    font-size: 40px;
+    color: #adada4;
+}
+
+.front {
+    position: absolute;
+    left: 43.8%;
+    top: 20px;
+    font-size: 28px;
+}
+
+.service-head p {
+    margin-top: 15px;
+}
+
+#services .card {
+    padding: 50px 25px;
+    text-align: center;
+}
+
+#services .card .icon {
+    color: white;
+    margin: 0 auto;
+    background-color: red;
+    padding: 10px 15px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.back-red {
+    background-color: red;
+    opacity: 0.2;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 40.5%;
+    top: 45px;
+}
+
+/* Action */
+#action {
+    background-image: url("/img/day.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+
+#action a {
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s all;
+}
+
+#action a:hover {
+    background-color: red;
+}
+
+/* Pricing */
+#pricing {
+
+    margin-top: 50px;
+}
+
+.pricing-head {
+    text-align: center;
+    position: relative;
+}
+
+.pricing-head .front {
+    left: 45.5%;
+
+}
+
+.pricing-box {
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #e8e6e6;
+}
+
+.pricing-box p {
+    font-size: 15px;
+}
+
+.pricing-box p {
+    color: #adada4;
+}
+
+.dollar {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.zero {
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+}
+
+.line {
+    text-decoration: line-through;
+    color: #adada4;
+
+}
+
+.buy-button {
+    background-color: red;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.red span {
+    color: white;
+}
+
+.red sup {
+    color: white;
+}
+
+.red button {
+    background-color: rgb(220, 110, 110);
+}
+
+
+/* TEAM */
+#team{
+    margin-top: 50px;
+}
+#team .team-head{
+    position: relative;
+    text-align: center;
+
+}
+#team .team-head .front{
+    left: 47%;
+}
+.person{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    padding: 25px;
+    text-align: center;
+}
+.person-img{
+    width: 155px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+    background-color: #adada4;
+}
+.person-img img{
+  
+    object-fit: cover;
+border-radius: 50%;
+}
+.person h4{
+    font-size: 15px;
+}
+.person p,.person i{
+    color: #adada4;
+    font-size: 15px;
+
+}
+.person i{
+    margin-left: 5px;
+}
+
+/* Contact */
+#contact{
+    margin-top: 50px;
+}
+.map {
+    height: 370px !important;
+  
+}
+.contact-head{
+    position: relative;
+}
+.address-box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #adada4;
+}
+.address-box i {
+    border: 1px dashed red;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.address-box p {
+    font-size: 12px;
+}
+.submit{
+    border: 1px solid #adada4;
+    background-color: red;
+    color: white;
+}
